@@ -1,402 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asmaa Hassan | Software Testing Engineer</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
-    <!-- Google Font -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Asmaa Hassan Abd-ElGhany — Software Testing Engineer portfolio featuring manual, API, and automation testing projects.">
+  <title>Asmaa Hassan | Software Testing Engineer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
+  <header class="site-header">
+    <a class="logo" href="#home">Asmaa<span>.</span></a>
+    <nav id="mainNav" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+      <a href="#experience">Experience</a><a href="#projects">Projects</a>
+      <a href="#education">Education</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button id="darkModeBtn" class="icon-btn" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+      <button id="menuBtn" class="icon-btn menu-btn" aria-label="Toggle navigation" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
 
-    <!--================ NAVBAR ================-->
-
-    <header>
-
-        <div class="logo">
-            Portfolio<span></span>
+  <main>
+    <section class="home section" id="home">
+      <div class="home-content">
+        <p class="eyebrow">SOFTWARE QUALITY • QA • TEST AUTOMATION</p>
+        <h1>Hello, I'm <span>Asmaa Hassan</span></h1>
+        <h2>Software Testing Engineer</h2>
+        <p class="lead">Software Quality Control Engineer with hands-on experience in manual testing, API testing, and test automation for web and mobile applications. Focused on validating business workflows, finding defects, and helping teams deliver reliable software.</p>
+        <div class="button-row">
+          <a class="btn primary" href="https://drive.google.com/file/d/1n0wTG8I8UcAH93O_GQ2D1-QsvAaSLq7I/view?usp=drive_link" target="_blank" rel="noopener"> <i class="fa-solid fa-download"></i> Download CV</a>
+          <a class="btn secondary" href="https://github.com/asmaahassan200350-web" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/asmaahassann/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
         </div>
-
-        <nav>
-
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#certificates">Certificates</a>
-            <a href="#contact">Contact</a>
-
-        </nav>
-
-        <button id="darkModeBtn">
-            <i class="fa-solid fa-moon"></i>
-        </button>
-
-    </header>
-
-    <!--================ HOME ================-->
-
-    <section class="home" id="home">
-
-        <div class="home-text">
-
-            <h3>Hello, I'm</h3>
-
-            <h1>Asmaa Hassan</h1>
-
-            <h2>Software Testing Engineer</h2>
-
-            <p>
-
-                Passionate Software Testing Engineer with practical experience
-                in Manual Testing, API Testing, and Automation Testing using
-                Selenium & Java. Dedicated to delivering high-quality software
-                through effective testing practices.
-
-            </p>
-
-            <div class="buttons">
-
-                <a href="https://drive.google.com/file/d/1n0wTG8I8UcAH93O_GQ2D1-QsvAaSLq7I/view?usp=drive_link" class="btn">Download CV</a>
-
-                <a href="https://github.com/asmaahassan200350-web"
-                    target="_blank"
-                    class="btn-outline">
-
-                    <i class="fab fa-github"></i>
-                    GitHub
-
-                </a>
-
-                <a href="https://www.linkedin.com/in/asmaahassann/"
-                    target="_blank"
-                    class="btn-outline">
-
-                    <i class="fab fa-linkedin"></i>
-                    LinkedIn
-
-                </a>
-
-            </div>
-
+        <div class="quick-facts">
+          <span><i class="fa-solid fa-location-dot"></i> Alexandria, Egypt · Open to relocation</span>
+          <span><i class="fa-solid fa-check-circle"></i> ISTQB® CTFL v4.0 Certified</span>
         </div>
-
-    
-
+      </div>
+      <div class="hero-card">
+        <div class="hero-icon"><i class="fa-solid fa-bug-slash"></i></div>
+        <p class="hero-label">QUALITY MINDSET</p>
+        <h3>Explore. Validate. Improve.</h3>
+        <p>From clear test cases to actionable defect reports and maintainable automation.</p>
+        <div class="hero-tags"><span>Manual QA</span><span>API Testing</span><span>Automation</span></div>
+      </div>
     </section>
 
-    <!--================ ABOUT ================-->
-
-    <section id="about">
-
-        <h2 class="section-title">About Me</h2>
-
-        <div class="about-container">
-
-            <p>
-
-                I'm a passionate Software Testing Engineer with hands-on experience in Manual Testing, API Testing, Test Case Design, Bug Reporting, and defect management using Jira through real-world projects and professional training. I am continuously developing my Automation Testing skills using Selenium, Java, TestNG, and the Page Object Model (POM).
-
-              During my Software Testing Trainee program at Fawry, I applied the Software Testing Life Cycle (STLC) in real-world scenarios, designed and executed test cases, performed functional and exploratory testing, validated REST APIs using Postman, analyzed system logs, and worked with microservices-based applications. 
-              I also built automation scripts using the Page Object Model and a data-driven approach while improving test stability by handling flaky tests.
-              I enjoy learning new technologies, solving quality challenges, and delivering reliable, high-quality software through effective testing practices.
-
-
-            </p>
-
-        </div>
-
+    <section class="section" id="about">
+      <div class="section-heading"><p class="eyebrow">GET TO KNOW ME</p><h2>About Me</h2></div>
+      <div class="about-panel">
+        <p>I'm a Software Testing Engineer with practical experience in software quality control across web and mobile applications. My work includes reviewing requirements, designing and executing test cases, performing functional, exploratory, regression, and API testing, and documenting defects clearly for investigation and resolution.</p>
+        <p>During the Fawry hands-on training program, I applied STLC practices, tested REST APIs with Postman, analyzed logs and microservice workflows, and developed basic automation scripts using the Page Object Model and data-driven testing. In professional roles at Rockai Dev and Pulvent, I tested healthcare, legal-learning, educational, and business web platforms, with attention to role-based access, integrations, financial workflows, and cross-platform behavior.</p>
+        <p>I continue to strengthen my automation skills with Java, Selenium WebDriver, TestNG, Maven, and Appium, while using AI as a supporting tool—not a replacement for independent validation and critical thinking.</p>
+      </div>
     </section>
 
-    <!--================ SKILLS ================-->
-
-    <section id="skills">
-
-        <h2 class="section-title">Skills</h2>
-
-        <div class="skills-container">
-
-            <div class="card">
-                <h3>Testing</h3>
-
-                <ul>
-
-                    <li>Manual Testing</li>
-                    <li>API Testing</li>
-                    <li>Automation Testing</li>
-                    <li>Regression Testing</li>
-                    <li>Functional Testing</li>
-                    <li>Exploratory Testing</li>
-
-                </ul>
-
-            </div>
-
-            <div class="card">
-
-                <h3>Automation</h3>
-
-                <ul>
-
-                    <li>Selenium</li>
-                    <li>Java</li>
-                    <li>TestNG</li>
-                    <li>Maven</li>
-                    <li>POM</li>
-
-                </ul>
-
-            </div>
-
-            <div class="card">
-
-                <h3>Tools</h3>
-
-                <ul>
-
-                    <li>Postman</li>
-                    <li>Jira</li>
-                    <li>Zephyr Scale</li>
-                    <li>Git</li>
-                    <li>GitHub</li>
-                    <li>MySQL</li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
+    <section class="section alt-section" id="skills">
+      <div class="section-heading"><p class="eyebrow">WHAT I WORK WITH</p><h2>Skills & Tools</h2></div>
+      <div class="card-grid three-col">
+        <article class="info-card"><div class="card-icon"><i class="fa-solid fa-list-check"></i></div><h3>Testing</h3><ul><li>Manual & Functional Testing</li><li>API Testing</li><li>Test Case Design & Execution</li><li>Regression, Smoke & Exploratory Testing</li><li>Bug Reporting & Tracking</li><li>Boundary Value Analysis & Equivalence Partitioning</li></ul></article>
+        <article class="info-card"><div class="card-icon"><i class="fa-solid fa-code"></i></div><h3>Automation</h3><ul><li>Java & OOP</li><li>Selenium WebDriver</li><li>Appium & Appium Inspector (basic)</li><li>TestNG, Maven & JUnit</li><li>Page Object Model (POM)</li><li>JSON-based Data-Driven Testing</li></ul></article>
+        <article class="info-card"><div class="card-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div><h3>Tools & Practices</h3><ul><li>Postman & REST APIs</li><li>Jira & Zephyr Scale</li><li>SQL & MySQL fundamentals</li><li>Git & GitHub</li><li>GitHub Actions / CI basics</li><li>Prompt Engineering & GenAI Testing Fundamentals</li><li>Cursor MCP Server</li></ul></article>
+      </div>
     </section>
 
-    <!--================ EXPERIENCE ================-->
-
-    <section id="experience">
-
-        <h2 class="section-title">Experience</h2>
-
-        <div class="timeline">
-
-            <div class="timeline-card">
-
-                <h3>Software Testing Trainee</h3>
-
-                <h4>Fawry</h4>
-
-                <span>Apr 2026 - Jun 2026</span>
-
-                <ul>
-
-                    <li>Applied STLC in real-world projects.</li>
-
-                    <li>Designed and executed Test Cases.</li>
-
-                    <li>Performed Functional & Exploratory Testing.</li>
-
-                    <li>API Testing using Postman.</li>
-
-                    <li>Worked with Jira & Zephyr.</li>
-
-                    <li>Created Selenium automation scripts.</li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
+    <section class="section" id="experience">
+      <div class="section-heading"><p class="eyebrow">MY PROFESSIONAL JOURNEY</p><h2>Experience</h2></div>
+      <div class="timeline">
+        <article class="timeline-card">
+          <div class="timeline-top"><div><h3>Software Quality Control Engineer</h3><h4>Pulvent</h4></div><span class="date">Aug 2026 – Present · Full-time</span></div>
+          <ul>
+            <li><strong>Kanun Network — Legal Learning Platform:</strong> Tested instructor/student role-based workflows, permissions, session scheduling and lifecycle, and financial transactions.</li>
+            <li><strong>Green Minds — Kids Learning Platform:</strong> Tested mobile learning workflows, educational videos, points and games, plus the web dashboard for parent accounts and child progress monitoring.</li>
+            <li><strong>ATRA Agencies — Agricultural Website:</strong> Tested product browsing, filters, contact forms, job applications, and form validation.</li>
+            <li><strong>N8N Central — Workflow Automation Platform:</strong> Testing workflow management, execution, monitoring, and integration scenarios.</li>
+          </ul>
+        </article>
+        <article class="timeline-card">
+          <div class="timeline-top"><div><h3>Software Quality Control Engineer</h3><h4>Rockai Dev</h4></div><span class="date">Jun 2026 – Aug 2026</span></div>
+          <ul>
+            <li>Tested Neuro Track, a healthcare platform with doctor and patient mobile apps and a web-based admin portal.</li>
+            <li>Performed manual testing against requirements, validated API endpoints and integrations, reported defects, and tracked fixes.</li>
+            <li>Investigated critical issues in user flows and admin functionality before release.</li>
+          </ul>
+        </article>
+        <article class="timeline-card">
+          <div class="timeline-top"><div><h3>Software Testing Trainee</h3><h4>Fawry — Hands-on Training Program</h4></div><span class="date">Apr 2026 – Jun 2026</span></div>
+          <ul>
+            <li>Applied STLC principles and designed and executed test cases for multiple user stories.</li>
+            <li>Performed functional, exploratory, and API testing using Postman.</li>
+            <li>Worked with Jira/Zephyr, analyzed logs and microservice workflows, and developed basic POM and data-driven automation scripts.</li>
+            <li>Investigated flaky tests and improved test stability.</li>
+          </ul>
+        </article>
+      </div>
     </section>
 
-    <!--================ PROJECTS ================-->
-
-    <section id="projects">
-
-        <h2 class="section-title">Featured Projects</h2>
-
-        <div class="projects-container">
-
-            <div class="project-card">
-
-                <h3>TMDB API Testing</h3>
-
-                <p>
-
-                    API Testing using Postman covering authentication,
-                    multiple endpoints, assertions and business validation.
-
-                </p>
-
-                <a href="https://github.com/asmaahassan200350-web/TMDB_API_Assignment">View Project</a>
-
-            </div>
-
-
-            <div class="project-card">
-
-                <h3>Swag Labs Testing</h3>
-
-                <p>
-
-                    Manual Testing using Jira & Zephyr Scale.
-
-                </p>
-
-                <a href="https://github.com/asmaahassan200350-web/Swag-Labs-Testing-Project">View Project</a>
-
-            </div>
-
-            <div class="project-card">
-
-                <h3>Guru99 Banking</h3>
-
-                <p>
-
-                    Functional Testing, Regression Testing,
-                    Bug Reporting and EP/BVA.
-
-                </p>
-
-                <a href="https://github.com/asmaahassan200350-web/Manual-Testing-guru99">View Project</a>
-
-            </div>
-
-        </div>
-
+    <section class="section alt-section" id="projects">
+      <div class="section-heading"><p class="eyebrow">SELECTED WORK</p><h2>Featured Projects</h2><p class="section-subtitle">A mix of public repositories and professional projects. Some professional systems are private and cannot be shared publicly.</p></div>
+      <div class="card-grid two-col">
+        <article class="project-card featured-project">
+          <div class="project-top"><span class="project-type">Automation Testing</span><i class="fa-solid fa-laptop-code"></i></div>
+          <h3>ATRA Website Automation</h3>
+          <p>Built a Java + Selenium + TestNG + Maven automation framework using POM, DriverFactory, and BaseTest setup/teardown. Includes 8 TestNG test classes for navigation, forms, and job application flows, with regression tests used to document defects and verify fixes.</p>
+          <div class="tag-row"><span>Java</span><span>Selenium</span><span>TestNG</span><span>POM</span></div>
+          <a class="project-link" href="https://github.com/asmaahassan200350-web" target="_blank" rel="noopener">Find project on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-type">Automation Testing</span><i class="fa-solid fa-robot"></i></div>
+          <h3>Swag Labs Automation</h3>
+          <p>Created a Selenium automation framework using Java, TestNG, POM, and JSON-based data-driven testing to validate login functionality and inventory page elements.</p>
+          <div class="tag-row"><span>Java</span><span>Selenium</span><span>JSON</span><span>TestNG</span></div>
+          <a class="project-link" href="https://github.com/asmaahassan200350-web" target="_blank" rel="noopener">Find project on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-type">API Testing</span><i class="fa-solid fa-plug"></i></div>
+          <h3>TMDB API Testing</h3>
+          <p>Tested API authentication and multiple endpoints using Postman, environment variables, and assertions to validate responses and behavior.</p>
+          <div class="tag-row"><span>Postman</span><span>REST API</span><span>Assertions</span></div>
+          <a class="project-link" href="https://github.com/asmaahassan200350-web/TMDB_API_Assignment" target="_blank" rel="noopener">View repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-type">Manual Testing</span><i class="fa-solid fa-clipboard-check"></i></div>
+          <h3>Swag Labs Manual Testing</h3>
+          <p>Managed a manual testing lifecycle with Jira and Zephyr Scale, including test cases, execution, defect reporting, and tracking.</p>
+          <div class="tag-row"><span>Jira</span><span>Zephyr Scale</span><span>Test Cases</span></div>
+          <a class="project-link" href="https://github.com/asmaahassan200350-web/Swag-Labs-Testing-Project" target="_blank" rel="noopener">View repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-type">Manual Testing</span><i class="fa-solid fa-building-columns"></i></div>
+          <h3>Guru99 Banking Project</h3>
+          <p>Performed manual functional testing from requirements review through test execution and defect reporting, applying EP and BVA techniques.</p>
+          <div class="tag-row"><span>Functional Testing</span><span>EP/BVA</span><span>Bug Reports</span></div>
+          <a class="project-link" href="https://github.com/asmaahassan200350-web/Manual-Testing-guru99" target="_blank" rel="noopener">View repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+        <article class="project-card private-project">
+          <div class="project-top"><span class="project-type">Professional Projects</span><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>Kanun Network, Green Minds & Neuro Track</h3>
+          <p>Professional QA work across legal-learning, children's education, and healthcare platforms, including role-based access, financial/session workflows, mobile and dashboard testing, API integration, and defect tracking.</p>
+          <div class="tag-row"><span>Mobile & Web</span><span>Business Workflows</span><span>API</span></div>
+          <span class="private-note"><i class="fa-solid fa-lock"></i> Private projects — details available upon request</span>
+        </article>
+      </div>
     </section>
 
-    <!--================ EDUCATION ================-->
-
-    <section id="education">
-
-        <h2 class="section-title">Education</h2>
-
-        <div class="card">
-
-            <h3>Alexandria University</h3>
-
-            <p>
-
-                Bachelor of Science
-
-                <br><br>
-
-                Industrial Microbiology & Applied Chemistry
-
-                <br><br>
-
-                CGPA : 3.56 / 4
-
-                <br>
-
-                Excellent with Honors
-
-            </p>
-
-        </div>
-
+    <section class="section" id="education">
+      <div class="section-heading"><p class="eyebrow">ACADEMIC BACKGROUND</p><h2>Education</h2></div>
+      <div class="card-grid two-col">
+        <article class="info-card education-card"><div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div><h3>Software Testing Diploma</h3><p class="institution">Route Academy</p><p>Dec 2025 – Aug 2026</p></article>
+        <article class="info-card education-card"><div class="card-icon"><i class="fa-solid fa-flask"></i></div><h3>B.Sc. in Science</h3><p class="institution">Alexandria University · IMAC</p><p>Sep 2021 – Jun 2025</p><p>CGPA: 3.56 / 4 · Excellent with Honors</p></article>
+      </div>
     </section>
 
-    <!--================ CERTIFICATES ================-->
-
-    <section id="certificates">
-
-        <h2 class="section-title">Certificates</h2>
-
-        <div class="certificate-container">
-
-            <div class="card">
-
-                <h3>ISTQB® CTFL v4.0</h3>
-
-                <p>Certified Tester Foundation Level</p>
-
-            </div>
-
-            <div class="card">
-
-                <h3>Route Academy</h3>
-
-                <p>Software Testing Diploma (In Progress)</p>
-
-            </div>
-
-        </div>
-
+    <section class="section alt-section" id="certificates">
+      <div class="section-heading"><p class="eyebrow">CONTINUOUS LEARNING</p><h2>Certificates</h2></div>
+      <div class="card-grid two-col">
+        <article class="info-card certificate-card"><div class="card-icon"><i class="fa-solid fa-certificate"></i></div><h3>ISTQB® CTFL v4.0</h3><p>Certified Tester Foundation Level</p><span class="certificate-date">June 2026</span></article>
+        <article class="info-card certificate-card"><div class="card-icon"><i class="fa-solid fa-book-open"></i></div><h3>Route Academy</h3><p>Software Testing Diploma</p><span class="certificate-date">Completed Aug 2026</span></article>
+      </div>
     </section>
 
-    <!--================ CONTACT ================-->
-
-    <section id="contact">
-
-        <h2 class="section-title">Contact</h2>
-
-        <div class="contact-container">
-
-            <p>
-
-                <i class="fa-solid fa-envelope"></i>
-
-                asmahassan200350@gmail.com
-
-            </p>
-
-            <p>
-
-                <i class="fa-solid fa-location-dot"></i>
-
-                Alexandria, Egypt
-
-            </p>
-
-            <div class="social">
-
-                <a href="https://github.com/asmaahassan200350-web"
-                    target="_blank">
-
-                    <i class="fab fa-github"></i>
-
-                </a>
-
-                <a href="https://www.linkedin.com/in/asmaahassann/"
-                    target="_blank">
-
-                    <i class="fab fa-linkedin"></i>
-
-                </a>
-
-            </div>
-
+    <section class="section contact-section" id="contact">
+      <div class="section-heading"><p class="eyebrow">LET'S CONNECT</p><h2>Contact</h2><p class="section-subtitle">Interested in working together or discussing software quality? Feel free to reach out.</p></div>
+      <div class="contact-panel">
+        <a href="mailto:asmahassan200350@gmail.com"><i class="fa-solid fa-envelope"></i><span>asmahassan200350@gmail.com</span></a>
+        <p><i class="fa-solid fa-location-dot"></i><span>Alexandria, Egypt · Open to relocation</span></p>
+        <div class="social-links">
+          <a href="https://github.com/asmaahassan200350-web" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/asmaahassann/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
         </div>
-
+      </div>
     </section>
-
-    <!--================ FOOTER ================-->
-
-    <footer>
-
-        <p>
-
-            Asmaa Hassan
-
-        </p>
-
-    </footer>
-
-    <script src="script.js"></script>
-
+  </main>
+  <footer><p>© <span id="year"></span> Asmaa Hassan Abd-ElGhany · Software Testing Engineer</p><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
 </body>
-
 </html>
